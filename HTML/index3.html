@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <!--Ordered Lists-->
+                <ol>
+                    <li>mango</li>
+                    <ul>
+                        <!-- Unordered List -->
+                        <li>color: yello</li>
+                        <li>seasion: summer</li>
+                    </ul>
+                    <li>apple</li>
+                    <ul>
+                        <li>color: yello</li>
+                        <li>seasion: winter</li>
+                    </ul>
+                    <li>litchi</li>
+                </ol>
+            </td>
+            
+            <td>
+                <!--Table-->
+                <table>
+                    <caption>Student data</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Information</th>
+                            <!-- <th>Enrolment</th> -->
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Vaidik</td>
+                            <td>508</td>
+                        </tr>
+                        <tr>
+                            <td>Nirjal</td>
+                            <td>332</td>
+                        </tr>
+                        <tr>
+                            <td>Prince</td>
+                            <td>510</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td>
+                <iframe width="400" height="400" src="https://en.wikipedia.org/wiki/Wiki" ></iframe>
+            </td>
+            <td>
+                <video src="myvideo.mp4" width="400" height="400" controls></video>
+            </td>
+        </tr>
+    </table>
+
+
+    <br><br>
+
+
+    <!--Forms-->
+    <h2>Regestration Form</h2>
+    <form action="action.php">
+        <input type="text" placeholder="User name">
+        <br>
+        <input type="password" placeholder="Password" name="" id="">
+        <br>
+        <div>
+            <h3>Select your class</h3>
+            <!-- Radio -->
+            <label for="Gender1">
+                <input type="radio" value="Male" name="Gender" id="Gender1">Male
+            </label>
+            <label for="Gender2">
+                <input type="radio" value="Female" name="Gender" id="Gender2">Female
+            </label>
+        </div>
+        <div>
+            <h3>Select your fav subject</h3>
+            <!-- Chackbox -->
+            <label for="math">
+                <input type="checkbox" name="subject" value="math" id="">Math
+            </label>
+            <label for="phy">
+                <input type="checkbox" name="subject" value="phy" id="">phy
+            </label>
+            <label for="chem">
+                <input type="checkbox" name="subject" value="chem" id="">chemh
+            </label>
+            <label for="bio">
+                <input type="checkbox" name="subject" value="bio" id="">bio
+            </label>
+        </div>
+
+        <div>
+            <!-- Dropdown -->
+            <h3>Select you city</h3>
+            <select name="city" id="">
+                <option value="Una">Una</option>
+                <option value="Diu">Diu</option>
+                <option value="Dwarka">Dwarka</option>
+                <option value="Madhupur">Madhupur</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <textarea name="feedback" id="101" placeholder="Give your feedback about portfolio" cols="30"
+                rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>

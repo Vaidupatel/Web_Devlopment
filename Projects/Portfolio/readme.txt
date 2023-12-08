@@ -1,0 +1,1 @@
+createing the pages: Education, Experience and Project & Link these with home page
